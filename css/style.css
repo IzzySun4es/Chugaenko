@@ -79,7 +79,7 @@ header ul li a{
 .content .content-right img{
     filter:drop-shadow(-5px -13px 0px #edf7fa);
 }
-section{
+.section-1{
     background: #EDF7FA;
 }
 .content-2{
@@ -146,4 +146,8 @@ section{
 .content-year p{
     font-size: 1.125rem;
     line-height: 26.44px;
+}
+.content-works{
+    display: flex;
+    flex-direction: column;
 }
