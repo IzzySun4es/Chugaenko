@@ -59,7 +59,6 @@ header ul li a{
 
     height: 300px;
     align-items: center;
-    border: solid 1px #21243d;
 }
 .content .content-left{
     display: flex;
@@ -83,6 +82,7 @@ header ul li a{
     margin-top: 86px;
 
     height: 396px;
+    border: solid 1px #21243d;
 }
 .content-veiw{
     display: flex;
