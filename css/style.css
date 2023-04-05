@@ -11,7 +11,7 @@ body{
     --border-grey:  #E5E5E5;
     --grey-color: #8695A4;
 }
-body,html{
+body,html,main{
     overflow-x: hidden;
 }
 *{
@@ -32,6 +32,7 @@ p{
 }
 section.work-detailed h3, section.work-detailed h4{
     font-weight: 500;
+    margin: 5px 0;
 }
 section.work-detailed h3{
     font-size: 1.875rem;
@@ -253,12 +254,14 @@ footer nav ul{
 .tg{
     background-image: url('../img/tg.svg');
 }
+.work-detailed img{
+    margin: 30px 0;
+    width: 100%;
+}
 .work-detailed img.first-img{
     margin: 50px 0;
 }
-.work-detailed h3{
 
-}
 @media screen and (max-width:900px){
     .container{
         max-width: 90%;
@@ -356,11 +359,17 @@ button.burger.open .line-3{
         z-index: 2;
         padding: 20px 10px;
         width: 100px;
-        right: -100%;
+
+        transform: translateY(100%);
+        opacity: 0;
+        pointer-events: none;
+
+        transition: .3s;
     }
     header ul.menu.open{
-        right: 0;
-        transition: .3s;
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: all;
     }
     button.burger{
         display: flex;
