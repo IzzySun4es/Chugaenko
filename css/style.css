@@ -99,14 +99,12 @@ header ul li a.active{
 .section.works .works-header h1{
     font-size: 2.75rem;
 }
-
 .content .content-right img{
     filter: drop-shadow(-5px -13px 0px #EDF7FA);
 }
 section{
     padding: 32px 0;
 }
-
 .section-header h2{
     font-size: 2.125rem;
 }
@@ -123,11 +121,8 @@ section.recent .recent-header{
     display: flex;
     justify-content: space-between;
 }
-
-
 section.works .works-header .description{
     display: flex;
-    
 }
 .works-header .description{
     display: flex;
