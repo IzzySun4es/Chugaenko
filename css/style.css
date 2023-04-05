@@ -20,11 +20,24 @@ body,html{
     margin: 0;
     padding: 0;
 }
+section h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
 h1{
     font-size: 2.75rem;
 }
 p{
     font-size: 16px;
+}
+section.work-detailed h3, section.work-detailed h4{
+    font-weight: 500;
+}
+section.work-detailed h3{
+    font-size: 1.875rem;
+}
+section.work-detailed h4{
+    font-size: 1.5rem;
 }
 h1,h2,h3,h4{
     color:var(--main-color);
@@ -92,10 +105,7 @@ header ul li a.active{
 section{
     padding: 32px 0;
 }
-section h3{
-    font-size: 1.4rem;
-    font-weight: 400;
-}
+
 .section-header h2{
     font-size: 2.125rem;
 }
@@ -242,6 +252,12 @@ footer nav ul{
 }
 .tg{
     background-image: url('../img/tg.svg');
+}
+.work-detailed img.first-img{
+    margin: 50px 0;
+}
+.work-detailed h3{
+
 }
 @media screen and (max-width:900px){
     .container{
