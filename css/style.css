@@ -85,6 +85,7 @@ header ul li a.active{
 .section.works .works-header h1{
     font-size: 2.75rem;
 }
+
 .content .content-right img{
     filter: drop-shadow(-5px -13px 0px #EDF7FA);
 }
@@ -95,17 +96,50 @@ section h3{
     font-size: 1.4rem;
     font-weight: 400;
 }
+.section-header h2{
+    font-size: 2.125rem;
+}
+
 section a.all{
     color: var(--secondary-color);
     text-decoration:none;
 }
 section.recent{
     background-color: var(--bg-lightblue);
-
 }
+
 section.recent .recent-header{
     display: flex;
     justify-content: space-between;
+}
+
+
+section.works .works-header .description{
+    display: flex;
+    
+}
+.works-header .description{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.works-header .description .date{
+    width: 62px;
+    height: 26px;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 900;
+    text-align: center;
+}
+.works-header .description .tag{
+    font-size: 1.25rem;
+    color: var(--grey-color);
 }
 section.recent .recent-card-conteiner{
     max-width: 418px;
