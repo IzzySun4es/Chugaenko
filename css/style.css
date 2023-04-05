@@ -20,6 +20,12 @@ body,html{
     margin: 0;
     padding: 0;
 }
+h1{
+    font-size: 2.75rem;
+}
+p{
+    font-size: 16px;
+}
 h1,h2,h3,h4{
     color:var(--main-color);
 }
@@ -55,7 +61,10 @@ header ul{
 }
 header ul li a{
     text-decoration: none;
-    color: black;
+    color: var(--main-color);
+}
+header ul li a.active{
+    color: var(--primary-color);
 }
 .content{
     margin-top: 120;
@@ -71,6 +80,9 @@ header ul li a{
     width: 60%;
 }
 .content .content-left h1{
+    font-size: 2.75rem;
+}
+.section.works .works-header h1{
     font-size: 2.75rem;
 }
 .content .content-right img{
